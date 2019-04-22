@@ -35,4 +35,12 @@
         android:text="Outfit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="441dp"
+        app:srcCompat="@drawable/copy2"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="26dp" />
 </android.support.constraint.ConstraintLayout>
