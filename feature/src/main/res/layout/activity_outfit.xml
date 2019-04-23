@@ -14,11 +14,12 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="292dp"
         android:layout_marginBottom="8dp"
+        android:src="@drawable/outfit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/outfit" />
+         />
 
     <ImageView
         android:id="@+id/avatar"
