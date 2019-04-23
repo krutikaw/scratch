@@ -7,32 +7,32 @@
     tools:context=".Outfit">
 
 
-        <ImageView
-            android:id="@+id/dress"
-            android:layout_width="118dp"
-            android:layout_height="162dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="284dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/outfit" />
+    <ImageView
+        android:id="@+id/dress"
+        android:layout_width="118dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/outfit" />
 
-    /*<LinearLayout
-        android:id="@+id/rightL"
-        android:layout_width="236dp"
-        android:layout_height="740dp"
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="140dp"
+        android:layout_height="477dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/copy1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">*/
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toEndOf="@+id/dress"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/avatar"
-            android:layout_width="159dp"
-            android:layout_height="380dp"
-            android:layout_marginTop="172dp"
-            android:layout_marginEnd="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/copy1" />
-    //</LinearLayout>
+    /*
 
 </android.support.constraint.ConstraintLayout>

@@ -18,7 +18,7 @@ public class Outfit extends Activity {
         setContentView(R.layout.activity_outfit);
         findViewById(R.id.dress).setOnTouchListener(new MyTouchListener());
         findViewById(R.id.avatar).setOnTouchListener(new MyTouchListener());
-        findViewById(R.id.rightL).setOnDragListener(new MyDragListener());
+        //findViewById(R.id.rightL).setOnDragListener(new MyDragListener());
         //findViewById(R.id.bottomright).setOnDragListener(new MyDragListener());
 
     }
